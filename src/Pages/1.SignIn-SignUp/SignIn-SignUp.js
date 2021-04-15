@@ -23,7 +23,7 @@ class SignInSignUp extends Component {
 
     render() {
         return (
-            <div className="root-container">
+            <div className="signin-register-container">
                 <div className="box-controller">
                     <div
                         className={
