@@ -7,14 +7,13 @@
     width: 200px;
     border-radius:10px;
     background-color: #BDD0F5;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 .user-img-container img{
     width: 150px;
     height: 150px;
     border: 3px solid black;
-    /* border-radius: 100%; */
     background-color: #00bdec;
     margin-bottom: 15px;
     

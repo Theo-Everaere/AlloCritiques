@@ -21,7 +21,7 @@ class Password extends Component {
         const modal = this.state.showModalPassword && <ModalPassword />
         return (
             <>
-                <button onClick={this.handlePasssword} >Modifier votre mot de passe</button>
+                <button className="account-btn-password" onClick={this.handlePasssword} >Modifier votre mot de passe</button>
                 {modal}
             </>
         )

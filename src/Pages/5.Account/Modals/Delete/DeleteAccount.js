@@ -1,32 +1,46 @@
-import React, { Component } from 'react';
+import React from 'react'
 import "./DeleteAccount.css"
 
-class ModalRemove extends Component {
 
-    render() {
-        return (
-            <div className="modal">
-                <div>
-                    <form>
-                        <label htmlFor="Nom">
-                            <input className="" type="text" placeholder="Name"></input>
-                        </label><br></br><br></br>
+function ModalDelete() {
 
-                        <label htmlFor="Votre mail">
-                            <input clasName="" type="text" placeholder="Email"></input>
-                        </label><br></br><br></br>
+    return (
+        <div className="modal-account">
 
-                        <label htmlFor="floatingInput">
-                            <input type="password" className="" id="floatingPassword" placeholder="Password"></input>
-                        </label><br></br><br></br>
+            <div className="modal-content">
 
-                        <input type="reset" value="Reset" />
-
-                    </form>
+                <div className="form-contact">
+                    <input type="password" placeholder="Entrez le mot de passe pour valider" />
+                    <button className="sent-modal-contact">Supprimer le compte</button>
                 </div>
+                <button
+                    className="close-modal-password"
+                >Fermer
+                </button>
             </div>
 
-        )
-    }
+        </div>
+    )
+
 }
-export default ModalRemove;
+export default ModalDelete;
+
+
+<div className="modal-account">
+
+    <div className="modal-content">
+
+        <div className="form-contact">
+            <input type="password" placeholder="Mot de Passe" />
+            <button className="sent-modal-contact">Supprimer</button>
+        </div>
+        <button
+            className="close-modal-password"
+        >Fermer
+                </button>
+    </div>
+
+</div>
+
+
+

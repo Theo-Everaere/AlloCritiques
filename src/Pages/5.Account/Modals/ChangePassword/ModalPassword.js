@@ -1,31 +1,26 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react'
+import "./ModalPassword.css"
 
-class ModalPassword extends Component {
 
-    render() {
-        return (
-            <div className="modal">
-                <div>
-                    <form>
-                        <label htmlFor="Votre mail">
-                            <input className="" type="text" placeholder="Votre Email"></input>
-                        </label><br></br><br></br>
+function ModalPassword(props) {
 
-                        <label htmlFor="floatingInput">
-                            <input type="password" className="" id="Password" placeholder="Nouveau mot de passe"></input>
-                        </label><br></br><br></br>
+    return (
+        <div className="modal-account">
 
-                        <label htmlFor="floatingInput">
-                            <input type="password" className="" id="Password2" placeholder="Confirmation mot de passe"></input>
-                        </label><br></br><br></br>
-
-                        <button className='btn-changer'>Envoyer</button>
-                    </form>
-
+            <div className="modal-content">
+                <div className="form-contact">
+                    <input type="password" placeholder="Ancien mot de passe" />
+                    <input type="password" placeholder="Nouveau mot de passe" />
+                    <input type="password" placeholder="Confirmer le mot de passe" />
+                    <button className="sent-modal-contact">Valider</button>
                 </div>
+                <button
+                    className="close-modal-password"
+                >Fermer</button>
             </div>
-        )
-    }
+        </div>
+    )
+
 }
 export default ModalPassword;
 
