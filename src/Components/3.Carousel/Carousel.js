@@ -32,7 +32,7 @@ class CarouselResponsive extends Component {
             <div className='slides'>
                 <Carousel
                     slides={this.state.slides}
-                    slidesPerPage={6}
+                    slidesPerPage={5}
                     slideToScroll
                     infinite
                     arrows

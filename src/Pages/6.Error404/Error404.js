@@ -9,9 +9,6 @@ class Error404 extends Component {
         return (
             <div className='Erreur404-body'>
                 <div className="Erreur404-container">
-                    <div className='gif-404'>
-                        <img src={gif} alt='Gif' />
-                    </div>
 
                     <div className="Erreur404-text">
                         <h1 className="Erreur404-text_h1">ERREUR 404 !</h1>
@@ -19,6 +16,7 @@ class Error404 extends Component {
                         <h4 className="Erreur404-text_h4">Cliquez ici pour revenir à l'accueil.</h4>
                         <Link to='/' className="Erreur404-bouton">{DATAS.ACCUEIL}</Link>
                     </div>
+                        <img className='TestGif' src={gif} alt='Gif' />
                 </div>
 
             </div>
