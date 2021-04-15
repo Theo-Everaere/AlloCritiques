@@ -1,0 +1,30 @@
+.add-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    top: 100px;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 5em; */
+    margin: 3em 0;
+}
+.searchbar-bouton{
+    border-radius: 4px;
+}
+.results-bottom{
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+}
+.input-wrapper input{
+    width: 50%;
+    height: 3em;
+}

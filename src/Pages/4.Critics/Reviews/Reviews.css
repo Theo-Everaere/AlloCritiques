@@ -1,0 +1,33 @@
+.positiveReviewsBox {
+    background-color: #565656;
+    width: 45%;
+    color: #70a1ff;
+    border-radius: 4px;
+    min-width: 400px;
+    margin: 0 auto 40px auto;
+  }
+  .header_Commentsection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+    text-align: center;
+  }
+  .profile_details{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+  }
+  .CommentSection_Comment{
+    margin: 10px 15px 0 15px;
+    text-align: justify;
+    color: #ffffff;
+  }
+  .profile_details > span{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 150px;
+  }
+  
+  

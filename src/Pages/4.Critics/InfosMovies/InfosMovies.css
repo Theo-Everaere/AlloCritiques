@@ -1,0 +1,123 @@
+.Infos {
+    width: 90%;
+    background-color: #565656;
+    display: flex;
+    color: #fff;
+    border-radius: 4px;
+    margin: 40px auto 40px auto;
+  }
+  .Infos > img {
+    margin-top: -2%;
+    margin-left: -2%;
+    margin-bottom: -2%;
+    height: 390px;
+  }
+  .Infos_Titre {
+    font-size: 1.5em;
+    margin-left: 50px;
+  
+  }
+  .Infos_Film {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  .Infos_Film img {
+    width: 40px;
+  }
+  .bouton_favoris button {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    outline:none;
+    background-color: Transparent;
+  }
+  
+  .span_infoMovie {
+    font-weight: bold;
+  }
+  
+  .Synopsis {
+    margin-left: 50px;
+    width: 80%;
+    text-align: justify;
+  }
+  .wishlist-text{
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  
+  @media (max-width: 1145px) {
+    .Infos {
+      width: 90%;
+      background-color: #565656;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      border-radius: 4px;
+  
+    }
+    .Infos > img {
+      margin: 15px auto 0 auto;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+    }
+    .Infos_Titre {
+      text-align: center;
+      font-size: 1.5em;
+      margin-left: 50px;
+    }
+    .Infos_Film {
+      width: 85%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 50px;
+    }
+  
+    .bouton_favoris {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    span {
+      font-weight: bold;
+    }
+  
+    .Synopsis {
+      margin-left: 50px;
+      width: 80%;
+      text-align: justify;
+    }
+  }
+  @media (max-width: 550px) {
+    .Infos_Film {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  
+    }
+  
+    .bouton_favoris {
+      cursor: pointer;
+      display: flex;
+    }
+    .bouton_favoris button {
+      padding: 0 15px;
+      margin: 15px 0;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #bdd0f5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.Copyright {
+    margin-left: 10px;
+    font-size: 1em;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+.Contact {
+    height: 35px;
+    width: 80px;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.Contact:hover {
+    border: 1px solid #fff;
+}
+.Logo_Reseau{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    padding: 0 10px;
+    height: 50px;
+}
+.Logo_Reseau img {
+    height: 30px;
+    margin: 0 10px;
+}
+.Logo_Reseau a {
+    margin: 0 10px;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

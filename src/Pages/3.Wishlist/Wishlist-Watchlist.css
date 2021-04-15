@@ -1,0 +1,29 @@
+.wishlist-container{
+    padding-top: 1em;
+    font-size: 1.2em;    
+}
+.wishlist-title{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 1em;
+}
+.wishlist-title p{
+    text-align: center;
+    color: #fff;
+}
+.wishlist-movie-card{
+    display: flex;
+    margin: 20px;
+}
+.wishlist-movie-card img{
+    margin: 15px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.wishlist-movie-card img:hover{
+    border: 2px solid #fff;
+}
+.wishlist-no-movies{
+    color: white;
+    text-align: center;
+}

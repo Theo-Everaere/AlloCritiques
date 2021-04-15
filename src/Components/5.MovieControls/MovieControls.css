@@ -1,0 +1,41 @@
+.inner-card-controls{
+    position: absolute;
+    height: 20px;
+    margin-bottom: 2em;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ctrl-btn{
+    background-color: #EB5757;
+    opacity: 0.7;
+    height: 25px;
+    margin-right: 10px;
+    width: 50px;
+    margin: 0;
+    border-radius: 4px;
+}
+.ctrl-btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+/* .tooltip_bottom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+} */
+.tooltiptext {
+    visibility: hidden;
+    color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+}
+.ctrl-btn:hover .tooltiptext {
+    visibility: visible;
+    display:flex;
+    justify-content: center;
+}
