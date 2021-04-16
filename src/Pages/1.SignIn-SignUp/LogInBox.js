@@ -3,6 +3,7 @@ import { ERREURS_ETIQUETTES } from '../../Constantes/ERRORS_LABEL'
 import { ETIQUETTES } from '../../Constantes/LABELS'
 import { DATAS } from '../../Constantes/MOCKDATA';
 import Input from "../../Components/0. Reutilisable/Input";
+import "./LogInBox.css"
 
 class LoginBox extends React.Component {
     constructor(props) {
@@ -59,15 +60,15 @@ class LoginBox extends React.Component {
         // const { input } = this.state
         const { errors } = this.state
         return (
-            <div className="inner-container">
+            <div className="login-inner-container">
 
-                <div className="header-signin">
+                <div className="login-header-signin">
                     {DATAS.CONNEXION}
                 </div>
 
-                <div className="box">
+                <div className="login-box">
 
-                    <div className="input-group">
+                    <div className="login-input-group">
                         <label htmlFor={ETIQUETTES.IDENTIFIANT}>{ETIQUETTES.IDENTIFIANT}</label>
                         <Input
                             type="text"
@@ -76,11 +77,11 @@ class LoginBox extends React.Component {
                             placeholder={ERREURS_ETIQUETTES.IDENTIFIANT}
                             onChange={this.handleChange}
                         />
-                        <small className="danger-error">{errors.identifiant}</small>
+                        <small className="login-danger-error">{errors.identifiant}</small>
                     </div>
 
 
-                    <div className="input-group">
+                    <div className="login-input-group">
                         <label htmlFor={ETIQUETTES.MOT_DE_PASSE}>{ETIQUETTES.MOT_DE_PASSE}</label>
                         <Input
                             type="password"
@@ -89,7 +90,7 @@ class LoginBox extends React.Component {
                             placeholder={ERREURS_ETIQUETTES.MOT_DE_PASSE}
                             onChange={this.handleChange}
                         />
-                        <small className="danger-error"> {errors.motDePasse}</small>
+                        <small className="login-danger-error"> {errors.motDePasse}</small>
                     </div>
 
 

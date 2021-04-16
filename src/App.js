@@ -9,6 +9,7 @@ import Watched from "./Pages/2.Watched/Watched";
 import SignInSignUp from "./Pages/1.SignIn-SignUp/SignIn-SignUp";
 import MyAccount from "./Pages/5.Account/MyAccount"
 import Error404 from './Pages/6.Error404/Error404'
+import Critics from "./Pages/4.Critics/Critics";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path='/watchlist' component={Watched} />
             <Route path='/SignIn' component={SignInSignUp} />
             <Route path='/account' component={MyAccount} />
+            <Route path='/critics' component={Critics} />
             <Route path='' component={Error404} />
           </Switch>
         </Router>

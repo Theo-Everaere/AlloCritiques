@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Infos_Movies.css";
+import "./InfosMovies.css";
 import Favorite_On from "../../../Assets/Logos/Favorite_Coeur_On.svg";
 import Favorite_Off from "../../../Assets/Logos/Favorite_Coeur_Off.svg";
-import { DATAS } from "../../../constantes/MOCKDATA";
+import { DATAS } from "../../../Constantes/MOCKDATA";
 
-class Infos_Movies extends Component {
+class InfosMovies extends Component {
     constructor(props) {
         super(props);
 
@@ -86,4 +86,4 @@ class Infos_Movies extends Component {
     }
 }
 
-export default Infos_Movies;
+export default InfosMovies;
