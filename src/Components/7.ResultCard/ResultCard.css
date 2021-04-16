@@ -16,12 +16,16 @@
 }
 .search-poster {
     height: 140px;
+    width: 100px;
 }
 .info-title{
     display: flex;
     align-items: center;
     height: 170px;
     width: 40%;
+    font-size: 1.6rem;
+    background: none;
+    border-style: none;
 }
 .release-date{
     height: 170px;

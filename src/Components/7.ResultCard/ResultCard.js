@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { useHistory } from "react-router-dom"
 import { GlobalContext } from "../../Context/GlobalState";
 import "./ResultCard.css"
+import NoPoster from './No-poster.jpg'
 
 export const ResultCard = ({ movie }) => {
     const { addMovieToWatchlist, watchlist, watched, addMovieToWatched } = useContext(GlobalContext);
@@ -23,11 +24,13 @@ export const ResultCard = ({ movie }) => {
                         <img className='search-poster' src={`http://image.tmdb.org/t/p/original${movie.poster_path}`} alt={`${movie.title} Poster`} />
                     </button>
                 ) : (
-                    null
+                    <button className='bouton-poster' onClick={redirect}>
+                        <img className='search-poster' src={NoPoster} alt={`${movie.title} Poster`} />
+                    </button>
                 )}
             </div>
 
-            <h3 className="info-title">{movie.title}</h3>
+            <button className="info-title" onClick={redirect}>{movie.title}</button>
             <h4 className="release-date">
                 {movie.release_date ? movie.release_date.substring(0, 4) : "-"}
             </h4>
