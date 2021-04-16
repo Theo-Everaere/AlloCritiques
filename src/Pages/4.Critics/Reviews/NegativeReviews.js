@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./Reviews.css";
 import iconOpenSection from "../../../Assets/Icons/icon_openSectionComments.svg";
 import icon_ProfileCommented_Girl from "../../../Assets/Icons/icon_ProfileCommented_Girl.svg";
-import StarRating from "../../../components/StarRating_Folder/StarRating";
-import LikeDislikeButtons from "../../../components/LikeDislikeButtons_Folder/LikeDislikeButtons"
-import { DATAS } from "../../../constantes/MOCKDATA";
-import { LABELS } from "../../../constantes/LABELS";
+import StarRating from "../../../Components/9.StarRating/StarRating";
+import LikeDislikeButtons from "../../../Components/8.LikeDislikeButtons/LikeDislikeButtons"
+import { DATAS } from "../../../Constantes/MOCKDATA";
+import { LABELS } from "../../../Constantes/LABELS";
 
 class NegativeReviews extends Component {
     render() {

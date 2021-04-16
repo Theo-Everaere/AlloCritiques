@@ -4,6 +4,7 @@ import { ETIQUETTES } from '../../Constantes/LABELS'
 import { DATAS } from '../../Constantes/MOCKDATA';
 import Input from "../../Components/0. Reutilisable/Input";
 import { DatasUserContext } from "../../Context/UserContext"
+import "./RegisterBox.css"
 
 class RegisterBox extends React.Component {
     static contextType = DatasUserContext;
@@ -101,65 +102,65 @@ class RegisterBox extends React.Component {
         console.log("ici", this.context)
         const { errors } = this.state
         return (
-            <div className="inner-container">
+            <div className="register-inner-container">
 
-                <div className="header-signin">
+                <div className="register-header-signin">
                     {DATAS.INSCRIPTION}
                 </div>
 
-                <div className="box">
+                <div className="register-box">
 
-                    <div className="input-group">
+                    <div className="register-input-group">
                         <label htmlFor={ETIQUETTES.IDENTIFIANT}>{ETIQUETTES.IDENTIFIANT}</label>
                         <Input
                             type="text"
                             name={ETIQUETTES.IDENTIFIANT}
-                            className="login-input"
+                            className="register-input"
                             placeholder={ERREURS_ETIQUETTES.IDENTIFIANT}
                             onChange={this.handleChange}
                         />
-                        <small className="danger-error">{errors.identifiant}</small>
+                        <small className="register-danger-error">{errors.identifiant}</small>
                     </div>
 
-                    <div className="input-group">
+                    <div className="register-input-group">
                         <label htmlFor={ETIQUETTES.EMAIL}>{ETIQUETTES.EMAIL}</label>
                         <Input
                             type="text"
                             name={ETIQUETTES.EMAIL}
-                            className="login-input"
+                            className="register-input"
                             placeholder={ERREURS_ETIQUETTES.EMAIL}
                             onChange={this.handleChange}
                         />
-                        <small className="danger-error">{errors.email}</small>
+                        <small className="register-danger-error">{errors.email}</small>
                     </div>
 
 
-                    <div className="input-group">
+                    <div className="register-input-group">
                         <label htmlFor={ETIQUETTES.MOT_DE_PASSE}>{ETIQUETTES.MOT_DE_PASSE}</label>
                         <Input
                             type="password"
                             name={ETIQUETTES.MOT_DE_PASSE}
-                            className="login-input"
+                            className="register-input"
                             placeholder={ERREURS_ETIQUETTES.MOT_DE_PASSE}
                             onChange={this.handleChange}
                         />
-                        <small className="danger-error"> {errors.motDePasse}</small>
+                        <small className="register-danger-error"> {errors.motDePasse}</small>
                     </div>
 
-                    <div className="input-group">
+                    <div className="register-input-group">
                         <label htmlFor={ETIQUETTES.MOT_DE_PASSE_CONFIRMER}>{ETIQUETTES.MOT_DE_PASSE_CONFIRMER}</label>
                         <Input
                             type="password"
                             name={ETIQUETTES.MOT_DE_PASSE_CONFIRMER}
-                            className="login-input"
+                            className="register-input"
                             placeholder={ERREURS_ETIQUETTES.MOT_DE_PASSE_CONFIRMER}
                             onChange={this.handleChange}
                         />
-                        <small className="danger-error"> {errors.confirmerMotDePasse}</small>
+                        <small className="register-danger-error"> {errors.confirmerMotDePasse}</small>
 
                     </div>
 
-                    <button type="button" className="login-btn" onClick={this.handleSubmit}>
+                    <button type="button" className="register-btn" onClick={this.handleSubmit}>
                         {DATAS.INSCRIRE}
                     </button>
 

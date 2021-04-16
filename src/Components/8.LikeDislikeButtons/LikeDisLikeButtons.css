@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container img {
+  cursor: pointer;
+  background: transparent;
+  height: 50px;
+  width: 30px;
+}
+.container img:active {
+  background: transparent;
+  height: 50px;
+  width: 30px;
+}

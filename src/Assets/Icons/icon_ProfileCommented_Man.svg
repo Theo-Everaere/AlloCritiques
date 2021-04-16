@@ -1,0 +1,47 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <title/>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon id="svg_1" fill="#707789" points="28 37 28 48 23 45 25 38 24.93 37.65 28 37"/>
+  <polygon id="svg_2" fill="#707789" points="39 38 41 45 36 48 36 37 39.07 37.65 39 38"/>
+  <path id="svg_3" fill="#707789" d="m25,11l0,2l-1,1l0,2a3.906,3.906 0 0 0 -0.97,0.12l-0.03,-0.12l-2,-1l0,-6l0.12,-0.16l2.88,2.16l1,0z"/>
+  <path id="svg_4" fill="#707789" d="m43,9l0,6l-2,1l-0.03,0.12a3.906,3.906 0 0 0 -0.97,-0.12l0,-2l-1,-1l0,-2l1,0l2.88,-2.16l0.12,0.16z"/>
+  <path id="svg_5" fill="#414952" d="m32,11l-8,0l-2.88,-2.16l-1.12,-0.84c1,-1 2.97,-3.04 4.06,-4a12.007,12.007 0 0 1 15.88,0c1.09,0.96 3.06,3 4.06,4l-1.12,0.84l-2.88,2.16l-8,0z"/>
+  <path id="svg_6" fill="#707789" d="m21.705,9.278c0.844,-0.849 1.739,-1.735 2.355,-2.278a12.007,12.007 0 0 1 15.88,0c0.616,0.543 1.511,1.429 2.355,2.278l0.585,-0.438l1.12,-0.84c-1,-1 -2.97,-3.04 -4.06,-4a12.007,12.007 0 0 0 -15.88,0c-1.09,0.96 -3.06,3 -4.06,4l1.12,0.84l0.585,0.438z"/>
+  <path id="svg_7" fill="#eb975d" d="m40.97,16.12a4,4 0 0 1 -0.97,7.88l0,-8a3.906,3.906 0 0 1 0.97,0.12z"/>
+  <path id="svg_8" fill="#eb975d" d="m24,16l0,8a4,4 0 0 1 -0.97,-7.88a3.906,3.906 0 0 1 0.97,-0.12z"/>
+  <path id="svg_9" fill="#ffb680" d="m36,32l0,5s0,4 -4,4s-4,-4 -4,-4l0,-5l0.03,-0.06a7.964,7.964 0 0 0 7.94,0l0.03,0.06z"/>
+  <path id="svg_10" fill="#eb975d" d="m35.97,31.94a7.964,7.964 0 0 1 -7.94,0l-0.03,0.06l0,3l0.03,-0.06a7.964,7.964 0 0 0 7.94,0l0.03,0.06l0,-3l-0.03,-0.06z"/>
+  <path id="svg_11" fill="#ffdaaa" d="m40,24l0,1a8.014,8.014 0 0 1 -2.34,5.66a7.838,7.838 0 0 1 -1.69,1.28a8,8 0 0 1 -11.97,-6.94l0,-11l1,-1l0,-2l14,0l0,2l1,1l0,10z"/>
+  <polygon id="svg_12" fill="#ffb680" points="39 13 39 11 35 11 32 11 29 11 25 11 25 13 24 14 24 16 24 18 25 17 25 15 29 15 32 15 35 15 39 15 39 17 40 18 40 16 40 14 39 13"/>
+  <path id="svg_13" fill="#414952" d="m36,48l0,15l-8,0l0,-26s0,4 4,4s4,-4 4,-4l0,11z"/>
+  <polygon id="svg_14" fill="#e9edf5" points="28 48 28 63 15 63 9 63 9 41 24.93 37.65 25 38 23 45 28 48"/>
+  <polygon id="svg_15" fill="#e9edf5" points="36 63 36 48 41 45 39 38 39.07 37.65 55 41 55 63 49 63 36 63"/>
+  <polygon id="svg_16" fill="#afb4c8" points="25 38 24.93 37.65 9 41 9 45 23.895 41.868 25 38"/>
+  <polygon id="svg_17" fill="#afb4c8" points="23.976 45.585 23 49 28 52 28 48 23.976 45.585"/>
+  <polygon id="svg_18" fill="#afb4c8" points="40.024 45.585 36 48 36 52 41 49 40.024 45.585"/>
+  <polygon id="svg_19" fill="#afb4c8" points="39.07 37.65 39 38 40.105 41.868 55 45 55 41 39.07 37.65"/>
+  <path id="svg_20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m25,11l0,2l-1,1l0,11a7.992,7.992 0 0 0 11.97,6.94a7.838,7.838 0 0 0 1.69,-1.28a8.014,8.014 0 0 0 2.34,-5.66l0,-11l-1,-1l0,-2"/>
+  <path id="svg_21" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m25,11l-1,0l-2.88,-2.16l-1.12,-0.84c1,-1 2.97,-3.04 4.06,-4a12.007,12.007 0 0 1 15.88,0c1.09,0.96 3.06,3 4.06,4l-1.12,0.84l-2.88,2.16l-15,0z"/>
+  <path id="svg_22" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m40,24a4,4 0 0 0 0.97,-7.88a3.906,3.906 0 0 0 -0.97,-0.12"/>
+  <path id="svg_23" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m24,16a3.906,3.906 0 0 0 -0.97,0.12a4,4 0 0 0 0.97,7.88"/>
+  <polyline id="svg_24" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="28 32 28 37 24.93 37.65 9 41 9 63 15 63 28 63 36 63 49 63 55 63 55 41 39.07 37.65 36 37 36 32"/>
+  <line id="svg_25" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="50" y1="63" x2="15" x1="15"/>
+  <line id="svg_26" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="50" y1="63" x2="49" x1="49"/>
+  <polyline id="svg_27" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="43 9 43 15 41 16"/>
+  <polyline id="svg_28" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="21 9 21 15 23 16"/>
+  <line id="svg_29" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="3" y1="11" x2="32" x1="32"/>
+  <line id="svg_30" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="6" y1="11" x2="38" x1="35"/>
+  <line id="svg_31" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="6" y1="11" x2="26" x1="29"/>
+  <path id="svg_32" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m28,63l0,-26s0,4 4,4s4,-4 4,-4l0,26"/>
+  <polyline id="svg_33" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="36 48 41 45 39 38"/>
+  <polyline id="svg_34" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="28 48 23 45 25 38"/>
+  <line id="svg_35" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="52" y1="52" x2="26" x1="24"/>
+  <line id="svg_36" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="52" y1="52" x2="40" x1="38"/>
+ </g>
+</svg>

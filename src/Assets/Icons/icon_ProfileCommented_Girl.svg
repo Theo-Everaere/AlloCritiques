@@ -1,0 +1,35 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <title/>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" fill="#b25e1e" r="2" cy="30" cx="21"/>
+  <path id="svg_2" fill="#b25e1e" d="m47,63l-34,0l0,-18.75a3.994,3.994 0 0 1 3.18,-3.92l10.15,-2.05a1.989,1.989 0 0 0 1.67,-1.97l0,-0.31s0,4 4,4s4,-4 4,-4l0,0.31a1.989,1.989 0 0 0 1.67,1.97l10.15,2.05a3.994,3.994 0 0 1 3.18,3.92l0,18.75l-4,0z"/>
+  <path id="svg_3" fill="#d1813b" d="m47.82,40.33l-10.15,-2.05a1.989,1.989 0 0 1 -1.67,-1.97l0,-0.31s0,4 -4,4s-4,-4 -4,-4l0,0.31a1.989,1.989 0 0 1 -1.67,1.97l-10.15,2.05a3.994,3.994 0 0 0 -3.18,3.92l0,4a3.994,3.994 0 0 1 3.18,-3.92l10.15,-2.05a1.989,1.989 0 0 0 1.67,-1.97l0,-0.31s0,4 4,4s4,-4 4,-4l0,0.31a1.989,1.989 0 0 0 1.67,1.97l10.15,2.05a3.994,3.994 0 0 1 3.18,3.92l0,-4a3.994,3.994 0 0 0 -3.18,-3.92z"/>
+  <path id="svg_4" fill="#414952" d="m31,15l-8,0l0.36,4l-0.36,0a3,3 0 0 0 -3,3l-2,0l0,-7a14,14 0 0 1 28,0l0,14c0,5 -6,6 -6,6l0,-9l1,-11l-2,0l-3,-3l-3,3l-2,0z"/>
+  <path id="svg_5" fill="#636978" d="m32,1a13.963,13.963 0 0 0 -11.06,5.44a13.982,13.982 0 0 1 22.56,11.06l0,14a5.255,5.255 0 0 1 -0.55,2.4a5.516,5.516 0 0 0 3.05,-4.9l0,-14a14,14 0 0 0 -14,-14z"/>
+  <path id="svg_6" fill="#ffdaaa" d="m23.91,25l-0.55,-6l-0.36,-4l10,0l3,-3l3,3l2,0l-1,11a7.992,7.992 0 0 1 -11.97,6.94a7.838,7.838 0 0 1 -1.69,-1.28a8.014,8.014 0 0 1 -2.34,-5.66l-0.09,-1z"/>
+  <polygon id="svg_7" fill="#ffb680" points="27 19 31 19 33 19 36 16 39 19 40.636 19 41 15 39 15 36 12 33 15 31 15 27 15 23 15 23.36 19 27 19"/>
+  <path id="svg_8" fill="#ffb680" d="m36,33l0,3s0,4 -4,4s-4,-4 -4,-4l0,-3l0.03,-0.06a7.964,7.964 0 0 0 7.94,0l0.03,0.06z"/>
+  <path id="svg_9" fill="#eb975d" d="m35.97,32.94a7.964,7.964 0 0 1 -7.94,0l-0.03,0.06l0,3l0.03,-0.06a7.964,7.964 0 0 0 7.94,0l0.03,0.06l0,-3l-0.03,-0.06z"/>
+  <path id="svg_10" fill="#ffb680" d="m21,24.23a2.94,2.94 0 0 1 -1,-2.23a3,3 0 0 1 3,-3l0.36,0l0.55,6l-0.91,0a2.965,2.965 0 0 1 -2,-0.77z"/>
+  <path id="svg_11" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m41,15l-1,11a7.992,7.992 0 0 1 -11.97,6.94a7.838,7.838 0 0 1 -1.69,-1.28a8.014,8.014 0 0 1 -2.34,-5.66l-0.09,-1l-0.55,-6l-0.36,-4"/>
+  <path id="svg_12" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m28,33l0,3.31a1.989,1.989 0 0 1 -1.67,1.97l-10.15,2.05a3.994,3.994 0 0 0 -3.18,3.92l0,18.75l38,0l0,-18.75a3.994,3.994 0 0 0 -3.18,-3.92l-10.15,-2.05a1.989,1.989 0 0 1 -1.67,-1.97l0,-3.31"/>
+  <path id="svg_13" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m20,22l-2,0l0,-7a14,14 0 0 1 28,0l0,14c0,5 -6,6 -6,6l0,-9"/>
+  <path id="svg_14" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m24,19l-1,0a3,3 0 0 0 -3,3a3.011,3.011 0 0 0 3,3l1,0"/>
+  <path id="svg_15" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m45,48l0,5s2,3 2,10"/>
+  <path id="svg_16" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m19,48l0,5s-2,3 -2,10"/>
+  <path id="svg_17" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m36,36s0,4 -4,4s-4,-4 -4,-4"/>
+  <polyline id="svg_18" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="21 15 23 15 27 15 31 15 33 15 36 12 39 15 41 15 43 15"/>
+  <path id="svg_19" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m23,15s0,-5 2,-6"/>
+  <path id="svg_20" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m27,15s0,-5 2,-6"/>
+  <path id="svg_21" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" d="m31,15s0,-5 2,-6"/>
+  <polyline id="svg_22" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" points="21 24 21 24.23 21 28"/>
+  <circle id="svg_23" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" r="2" cy="30" cx="21"/>
+  <line id="svg_24" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2px" y2="43" y1="40" x2="32" x1="32"/>
+ </g>
+</svg>
