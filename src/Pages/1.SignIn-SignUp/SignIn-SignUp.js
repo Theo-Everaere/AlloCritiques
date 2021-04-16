@@ -24,11 +24,11 @@ class SignInSignUp extends Component {
     render() {
         return (
             <div className="signin-register-container">
-                <div className="box-controller">
+                <div className="signin-register-box-controller">
                     <div
                         className={
-                            "controller " +
-                            (this.state.isLoginOpen ? "selected-controller" : "")
+                            "signin-register-controller " +
+                            (this.state.isLoginOpen ? "signin-register-selected-controller" : "")
                         }
                         onClick={this.showLoginBox}
                     >
@@ -37,8 +37,8 @@ class SignInSignUp extends Component {
 
                     <div
                         className={
-                            "controller " +
-                            (this.state.isRegisterOpen ? "selected-controller" : "")
+                            "signin-register-controller " +
+                            (this.state.isRegisterOpen ? "signin-register-selected-controller" : "")
                         }
                         onClick={this.showRegisterBox}
                     >
@@ -46,7 +46,7 @@ class SignInSignUp extends Component {
                     </div>
                 </div>
 
-                <div className="box-container">
+                <div className="signin-register-box-container">
                     {this.state.isLoginOpen && <LoginBox />}
                     {this.state.isRegisterOpen && <RegisterBox />}
                 </div>

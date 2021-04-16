@@ -17,10 +17,6 @@ export default function NavBar() {
         setToggleMenu(!toggleMenu);
     };
 
-    const alertClick = () => {
-        alert('Veuillez vous connecter pour avoir accés aux fonctionnalités du site !')
-    }
-
     useEffect(() => {
 
         const changeWidth = () => {

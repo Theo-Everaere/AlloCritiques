@@ -1,0 +1,23 @@
+.criticsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #1e1e1e;
+}
+ 
+  
+.boxReviews{
+    display: flex;
+    justify-content:space-around;
+}
+
+@media (max-width: 1145px) {
+.boxReviews{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  
+}
+}
