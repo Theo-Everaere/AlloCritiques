@@ -10,24 +10,24 @@ const SearchBar = () => {
         e.preventDefault();
 
         setQuery(e.target.value);
-        
+
         fetch(`https://api.themoviedb.org/3/search/movie?api_key=373d3f9efafc9c232c465582f0a8610b&language=fr-FR&page=1&include_adult=false&query=${e.target.value}`)
-        .then(res => res.json())
-        .then((data) => {
-            // console.log(data);
-            if (!data.errors) {
-                setResults(data.results);
-            } else {
-                setResults([]);
-            }
-        });
+            .then(res => res.json())
+            .then((data) => {
+                // console.log(data);
+                if (!data.errors) {
+                    setResults(data.results);
+                } else {
+                    setResults([]);
+                }
+            });
     };
-    
+
     const deleteSearch = () => {
         setQuery("");
         setResults("");
     }
-        
+
 
     return (
 
@@ -35,10 +35,11 @@ const SearchBar = () => {
             <div className="input-wrapper">
                 <input
                     className="searchbar-bouton"
-                    type="text"
+                    type="search"
                     placeholder="Recherche"
                     value={query}
                     onChange={handleChange}
+
                 />
                 <button type='submit' className='delete-text_searchbar' onClick={deleteSearch}>Effacer</button>
             </div>
