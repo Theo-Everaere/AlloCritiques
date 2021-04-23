@@ -1,6 +1,5 @@
 import "./NavBar.css"
 import React, { useState, useEffect } from 'react'
-import { DATAS } from '../../Constantes/MOCKDATA';
 import { Link } from 'react-router-dom';
 import icon from "./icon_menu.svg"
 import home from "./icon_home.svg"

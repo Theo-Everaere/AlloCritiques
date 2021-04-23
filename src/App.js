@@ -10,6 +10,8 @@ import Error404 from './Pages/6.Error404/Error404'
 import Critics from "./Pages/4.Critics/Critics";
 import Watched from './Pages/2.Watched/Watched'
 import Wishlist from './Pages/3.Wishlist/Whishlist'
+import Test from "./Pages/Test/Test"
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
             <Route path='/wishlist' component={Wishlist} />
             <Route path='/account' component={MyAccount} />
             <Route path='/critics' component={Critics} />
+            <Route path='/test' component={Test} />
             <Route path='' component={Error404} />
           </Switch>
         </Router>
